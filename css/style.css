@@ -1,0 +1,49 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-weight: bold;
+}
+.img-articulo{
+	/*margin-top: 25px;
+	margin-left: 50px; */
+	float: right;
+	margin-bottom: 15px;
+	margin-top: 20px;	
+}
+h2{
+	border-left: solid crimson 7px;
+	padding-left: 10px;
+	color: blue;
+}
+.p-texto{
+	margin-left: 0;
+	/*text-align: justify;*/
+	font-size: 16px;
+	line-height: 25px;
+	color: rgba(0,0,0,0.8);
+}
+
+/* --------- estilo tablas------------*/
+.th-lateral{
+	background-color: rgba(122,192,248,1);
+}
+.th-cabecera{
+	background-color: #f59e16;
+}
+/*--------- estilos de historia------------*/
+.div-circulo{
+	border-radius: 50%; 
+	width: 500px; 
+	height: 500px; 
+	margin: 35px auto 25px auto; 
+	background-color: rgba(0,0,0,0.3);
+	display: flex;
+}
+h3{
+	color: white;
+	font-weight: bold;
+	border-bottom: solid crimson 3px;
+}
+p{
+	color: white;
+}

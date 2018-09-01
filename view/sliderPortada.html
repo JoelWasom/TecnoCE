@@ -1,0 +1,154 @@
+<div style="z-index: 10;">
+    <ul class="bxslider">
+      <li>
+        <img src="img/slider1.jpg" >
+        <div class="informacion">
+          <h4>Comida ideal y saludable para el estudiante</h4>
+          <h5>
+            IDEAL Y SALUDABLE <br> para que el estudiante disfrute de un almuerzo<br> y cena en un espacio comodo..
+          </h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/fondo.jpg" >
+        <div class="informacion">
+          <h4>Ambiente Comodo y Agradable</h4>
+          <h5>
+            Nuestro Ambiente es totalmente agradable <br> para que el estudiante disfrute de un almuerzo<br> y cena en un espacio comodo..
+          </h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/comedor.jpg" >
+        <div class="informacion">
+          <h4>Ambiente Comodo y Agradable</h4>
+          <h5>
+            Nuestro Ambiente es totalmente agradable <br> para que el estudiante disfrute de un almuerzo<br> y cena en un espacio comodo..
+          </h5>
+        </div>
+      </li>
+    </ul>
+</div>
+<style>
+  .sliderProducto table{
+    margin: auto;
+  }
+  .sliderProducto img{
+    height: 150px;
+  }
+  .sliderProducto td{
+    padding: 20px;
+  }
+  .mr-bt{
+    margin-bottom: 0 !important;
+  }
+  .mrg-auto{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 2em;
+    color: blue;
+    border-bottom: 5px solid crimson;
+    width: 20%;
+    margin-bottom: 25px;
+  }
+</style>
+<script>
+$(function(){
+  debugger;
+    $('.sliderProducto').bxSlider({
+      mode: 'horizontal',
+      captions: true,
+      auto:true,
+      pager:false
+      //slideWidth: 
+    });
+    $(".mod .bx-wrapper").addClass("mr-bt");
+  });
+ 
+</script>
+<div class="mod" id="productos">
+  <legend class="mrg-auto">NUESTROS PRODUCTOS</legend>
+  <ul class="sliderProducto">
+    <li>
+
+      <table>
+        <tr>
+          <td>
+            <a>
+              <img src="Marcas/sofia.png">
+            </a>
+          </td>
+          <td>
+            <a>
+                <img src="Marcas/LOGO PRINCESA16-1.jpg">
+            </a>
+          </td>
+          <td>
+            <a>
+                <img src="Marcas/lazaroni.png">
+            </a>
+          </td>
+          <td>
+            <a>
+                <img src="Marcas/kris.png">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </li>
+    <li>
+        <table>
+          <tr>
+            <td>
+              <a>
+                  <img src="Marcas/pil.jpg">
+              </a>
+            </td>
+            <td>
+              <a>
+                  <img src="Marcas/kris.png">
+              </a>
+            </td>
+            <td>
+              <a>
+                  <img src="Marcas/LOGO PRINCESA16-1.jpg">
+              </a>
+            </td>
+            <td>
+              <a>
+                  <img src="Marcas/sofia.png">
+              </a>
+            </td>
+          </tr>
+        </table>
+    </li>
+    <li>
+        <table>
+          <tr>
+            <td>
+              <a>
+                <img src="Marcas/lazaroni.png">
+              </a>
+            </td>
+            <td>
+              <a>
+                  <img src="Marcas/pil.jpg">
+              </a>
+            </td>
+            <td>
+              <a>
+                  <img src="Marcas/sofia.png">
+              </a>
+            </td>
+            <td>
+              <a>
+                  <img src="Marcas/kris.png">
+              </a>
+            </td>
+          </tr>
+        </table>
+    </li>
+
+  </ul>
+</div>
